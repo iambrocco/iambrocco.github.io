@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "2k2s";
+  src: url(../2K4s.ttf);
+}
+* {
+  transition: ease-in-out 0.5s;
+  font-family:"2k2s";
+  margin: 0;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(59, 78, 61);
+}
+.head {
+  text-align: center;
+
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(124, 170, 139);
+  background-color: rgb(57, 73, 59);
+}
+.body {
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .head{
+    height: 25%;
+  }
+  .body {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+}

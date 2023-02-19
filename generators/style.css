@@ -1,0 +1,10 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(143, 131, 78);
+}
+.head {
+  color: rgb(184, 172, 107);
+  background-color: rgb(110, 102, 66);
+}
