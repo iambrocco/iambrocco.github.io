@@ -24,7 +24,9 @@
   text-align: center;
   transition: ease-in-out 0.5s;
 }
-
+.grid:last-child{
+  margin-right: 1%;
+}
 .grid div:hover {
   font-size: large;
   width: 72%;
