@@ -1,0 +1,33 @@
+.grid{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.grid div {
+  font-size: medium;
+  border: 2px black solid;
+  margin-top: 2%;
+  margin-left: 1%;
+  width: 70%;
+  height: 30%;
+  background-color: rgb(96, 139, 60);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: ease-in-out 0.5s;
+}
+
+.grid div:hover {
+  font-size: large;
+  width: 72%;
+  height: 32%;
+  transition: ease-in-out 0.5s;
+}

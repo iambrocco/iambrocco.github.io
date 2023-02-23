@@ -9,3 +9,11 @@ body {
   color: rgb(81, 156, 226);
   background-color: rgb(51, 64, 80);
 }
+#brottoli{
+  background-color: rgb(89, 99, 61);
+  background-image: url(./brottoli.png);
+  background-position: center;
+  background-blend-mode:overlay;
+  background-size:cover;
+  color: rgb(183, 238, 95);
+}
