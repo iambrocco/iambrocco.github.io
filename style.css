@@ -5,7 +5,7 @@
   margin-left: 1%;
   width: 70%;
   height: 30%;
-  background-color: rgb(96, 139, 60);
+  background-color: rgb(134, 153, 117);
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -18,7 +18,7 @@
 #discordstuff {
   background-color: rgb(88, 101, 242);
 }
-#generationstuff {
+#otherstuff {
   margin-right: 1%;
   background-color: burlywood;
 }
@@ -34,7 +34,7 @@
   display: inline-block;
 }
 @media only screen and (max-width: 600px) {
-  #generationstuff {
+  #otherstuff {
     margin-right: 0%;
   }
   .body {
